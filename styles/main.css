@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: flex-row;
+  align-items: center;
+}
+.container .box {
+  padding-top: 80px;
+  position: relative;
+}
+
+.cat {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 290px;
+  transform: scale(0.9) translate(-2px, 0px) skew(0deg, -10deg);
+}
+.cat.catup {
+  display: block;
+}/*# sourceMappingURL=main.css.map */
