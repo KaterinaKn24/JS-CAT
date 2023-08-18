@@ -1,14 +1,13 @@
 .container {
     display: flex;
-    justify-content: flex-row;
     align-items: center;
 
-.box {
-    padding-top: 80px;
-    position: relative;
-}
-}
-
+    .box {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-top: 80px;
+    }
     .cat {
         display: none;
         position: absolute;
@@ -19,9 +18,9 @@
         -ms-transform: scale(0.9) translate(-2px, 0px) skew(0deg, -10deg);
         -o-transform: scale(0.9) translate(-2px, 0px) skew(0deg, -10deg);
         transform: scale(0.9) translate(-2px, 0px) skew(0deg, -10deg);
-    
+
         &.catup {
             display: block;
+        }
     }
 }
-
